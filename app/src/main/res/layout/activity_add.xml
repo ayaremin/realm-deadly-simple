@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.happycoderz.realmtodolistsample.MainActivity">
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="İsim buraya yazın"
+        android:layout_margin="20dp"/>
+
+    <EditText
+        android:id="@+id/count"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Adet buraya yazın"
+        android:layout_margin="20dp"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:text="KAYDET" />
+
+</LinearLayout>
